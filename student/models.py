@@ -7,7 +7,7 @@ class Student(models.Model):
     last_name = models.CharField(max_length = 20)
     email = models.EmailField()
     date_of_birth = models.DateField()
-    student_id = models.IntegerField()
+    # student_id = models.IntegerField()
     # code = models.PositiveSmallIntergerField()
     country = models.CharField(max_length = 28)
 
