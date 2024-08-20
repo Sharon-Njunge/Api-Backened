@@ -10,6 +10,7 @@ class Student(models.Model):
     # student_id = models.IntegerField()
     # code = models.PositiveSmallIntergerField()
     country = models.CharField(max_length = 28)
+    
 
     def __str__(self):
         return f"{self.first_name}  {self.last_name}"
